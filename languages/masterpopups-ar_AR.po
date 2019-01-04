@@ -1,0 +1,2034 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"Project-Id-Version: Master Popups\n"
+"POT-Creation-Date: 2017-11-11 18:36-0500\n"
+"PO-Revision-Date: 2018-07-05 15:36-0500\n"
+"Language-Team: العربية\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: master-popups.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: admin <a7.y.q@hotmail.com>\n"
+"Language: ar\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: libs\n"
+
+#: includes/class-ajax.php:176
+msgid "Not icons found"
+msgstr "لا توجد نتائج"
+
+#: includes/class-ajax.php:196
+msgid "Service connected successfully, please save changes."
+msgstr "الخدمة متصلة بنجاح ، يرجى حفظ التغييرات."
+
+#: includes/class-ajax.php:197
+msgid "Invalid access data, please try again."
+msgstr "بيانات الوصول غير صالحة ، يرجى المحاولة مرة أخرى."
+
+#: includes/class-ajax.php:204 includes/class-ajax.php:248
+msgid "Data is missing to authenticate service"
+msgstr "البيانات مفقودة لمصادقة الخدمة"
+
+#: includes/class-ajax.php:240
+msgid "Successful process, the previous custom fields have been found."
+msgstr "عملية ناجحة ، تم العثور على الحقول المخصصة السابقة."
+
+#: includes/class-ajax.php:241
+msgid "No custom fields found, perhaps this service not have custom fields."
+msgstr "لم يتم العثور علي حقول مخصصة ،ربما لا تحتوي هذه الخدمة علي حقول مخصصة."
+
+#: includes/class-ajax.php:275
+msgid "Impossible to connect with the service, please try again."
+msgstr "من المستحيل الاتصال بالخدمة ، يرجى المحاولة مرة أخرى."
+
+#: includes/class-ajax.php:297
+msgid "Data is missing to get lists"
+msgstr "البيانات مفقودة للحصول على قوائم"
+
+#: includes/class-ajax.php:304
+msgid "There are no services connected."
+msgstr "لا توجد خدمات متصلة."
+
+#: includes/class-ajax.php:321
+msgid "Successful process, the following lists have been found:"
+msgstr "عملية ناجحة ، تم العثور على القوائم التالية:"
+
+#: includes/class-ajax.php:323
+msgid ""
+"Could not find lists, maybe this service does not have lists or does not "
+"allow to obtain them through its API. Please get your list id on the website "
+"of the service."
+msgstr ""
+"تعذر الحصول علي قوائم، ربما لا تحتوي هذه الخدمة علي قوائم او لا يسمح بالحصول "
+"علي قوائم عن طريق API الخاص بها.يرجي الحصول علي معرف القائمة الخاصة بك من "
+"علي موقع الخدمة علي الانترنت."
+
+#: includes/class-ajax.php:326
+msgid ""
+"Unable to get the lists because we could not connect with the service, "
+"please try again."
+msgstr ""
+"غير قادر علي الحصول علي قوائم لتعذر الاتصال بالخدمة، يرجي المحاولة مرة اخري "
+
+#: includes/class-ajax.php:393
+msgid "Error: Unable to delete subscriber."
+msgstr "خطأ: غير قادر علي حذف المشترك"
+
+#: includes/class-ajax.php:412
+msgid "Subscriber successfully deleted."
+msgstr "تم حذف المشترك بنجاح"
+
+#: includes/class-assets-loader.php:192
+msgid "Saving changes"
+msgstr "حفظ التغييرات "
+
+#: includes/class-assets-loader.php:193
+msgid "Please wait a moment"
+msgstr "فضلا انتظر لحظة"
+
+#: includes/class-assets-loader.php:194
+msgid "Replacing Styles"
+msgstr "استبدال الأنماط"
+
+#: includes/class-assets-loader.php:195
+msgid "Styles copied successfully"
+msgstr "تم نسخ الأنماط بنجاح"
+
+#: includes/class-assets-loader.php:196
+msgid "Object Library"
+msgstr "مكتبة الكائنات"
+
+#: includes/class-assets-loader.php:198 includes/class-assets-loader.php:205
+msgid "Connected"
+msgstr "متصل "
+
+#: includes/class-assets-loader.php:199 includes/class-assets-loader.php:206
+#: includes/options/general-settings/service-integration/service-integration.php:58
+msgid "Disconnected"
+msgstr "غير متصل"
+
+#: includes/class-assets-loader.php:202
+msgid "Please connect with the service"
+msgstr "برجاء الاتصال بالخدمة"
+
+#: includes/class-assets-loader.php:203 includes/class-options-manager.php:446
+msgid "Integrated"
+msgstr "متكامل "
+
+#: includes/class-assets-loader.php:204 includes/class-options-manager.php:448
+msgid "Integrate"
+msgstr "دمج"
+
+#: includes/class-assets-loader.php:207
+msgid "Disconnect Service"
+msgstr "غير متصل بالخدمة"
+
+#: includes/class-assets-loader.php:208
+msgid ""
+"Are you sure you want to disconnect account? If you disconnect, your "
+"previous campaigns syncing will be disconnected as well."
+msgstr ""
+"هل انت متأكد من عدم اتصال الحساب؟ اذا قمت بفصل الحساب فسيتم فصل مزامنة "
+"حملاتك السابقة أيضا."
+
+#: includes/class-assets-loader.php:209
+msgctxt "On search service lists"
+msgid "Lists"
+msgstr "قوائم"
+
+#: includes/class-assets-loader.php:227
+msgid "Back to form"
+msgstr "العودة الي النموذج"
+
+#: includes/class-assets-loader.php:228
+msgid "Close"
+msgstr "إغلاق"
+
+#: includes/class-contact-form.php:30
+msgid "The recipient email has not been established."
+msgstr "لم يتم إنشاء البريد الالكتروني للمستلم ."
+
+#: includes/class-element.php:285
+msgid "Video not found"
+msgstr "الفيديو غير موجود"
+
+#: includes/class-element.php:322
+msgid "Unknown"
+msgstr "غير معرف"
+
+#: includes/class-form-submission.php:32
+msgid "This action cannot be performed."
+msgstr "لا يمكن تنفيذ هذا الاجراء."
+
+#: includes/class-form-submission.php:42 includes/class-form-submission.php:126
+msgid "Data is missing"
+msgstr "البيانات مفقودة"
+
+#: includes/class-form-submission.php:132
+msgid "The popup no longer exists."
+msgstr "النافذة المنبثقة لم تعد موجودة."
+
+#: includes/class-form-submission.php:148
+msgid "Data is missing."
+msgstr "البيانات مفقودة"
+
+#: includes/class-form-submission.php:156
+msgid "Invalid email address."
+msgstr "عنوان البريد الالكتروني غير صالح."
+
+#: includes/class-functions.php:388
+#, php-format
+msgid "No oEmbed results found for %s. See"
+msgstr ""
+
+#: includes/class-master-popups.php:155 includes/class-master-popups.php:218
+msgid "All Popups"
+msgstr "جميع النوافذ المنبثقة"
+
+#: includes/class-master-popups.php:158 includes/class-master-popups.php:221
+msgid "New Popup"
+msgstr "نافذة منبثقة جديدة"
+
+#: includes/class-master-popups.php:161 includes/class-master-popups.php:268
+msgid "New List"
+msgstr "قائمة جديدة"
+
+#: includes/class-master-popups.php:164 includes/class-master-popups.php:259
+#: includes/class-master-popups.php:265
+msgid "Audience Lists"
+msgstr "قوائم الجمهور"
+
+#: includes/class-master-popups.php:167 includes/class-options-manager.php:98
+#: includes/class-options-manager.php:99
+msgid "General Settings"
+msgstr "الاعدادات العامة"
+
+#: includes/class-master-popups.php:170
+msgid "Documentation"
+msgstr "دليل المستخدم "
+
+#: includes/class-master-popups.php:183 includes/class-settings.php:106
+msgid "License activation required."
+msgstr "تفعيل الترخيص مطلوب"
+
+#: includes/class-master-popups.php:184 includes/class-settings.php:107
+#, php-format
+msgid "Please activate your license from %shere%s. Tab \"Plugin Activation\""
+msgstr "برجاء تفعيل الرخصة الخاصة بك من %s هنا%s .اضغط \"تفعيل الإضافة\""
+
+#: includes/class-master-popups.php:219 includes/class-master-popups.php:220
+msgid "Add New Popup"
+msgstr "إضافة نافذة منبثقة جديدة"
+
+#: includes/class-master-popups.php:222
+msgid "Edit Popup"
+msgstr "تعديل النافذة المنبثقة"
+
+#: includes/class-master-popups.php:223
+msgid "Update Popup"
+msgstr "تحديث النافذة المنبثقة"
+
+#: includes/class-master-popups.php:224
+msgid "View Popup"
+msgstr "عرض النافذة المنبثقة"
+
+#: includes/class-master-popups.php:225
+msgid "View Popups"
+msgstr "عرض النوافذ المنبثقة"
+
+#: includes/class-master-popups.php:226
+msgid "Search Popup"
+msgstr "البحث عن نافذة منبثقة"
+
+#: includes/class-master-popups.php:232
+#, php-format
+msgid "Popups by %s"
+msgstr "نوافذ منبثقة عن طريق%s "
+
+#: includes/class-master-popups.php:258
+msgid "Audience"
+msgstr "الجمهور"
+
+#: includes/class-master-popups.php:266 includes/class-master-popups.php:267
+msgid "Add New List"
+msgstr "إضافة قائمة جديدة"
+
+#: includes/class-master-popups.php:269
+msgid "Edit List"
+msgstr "تعديل القائمة"
+
+#: includes/class-master-popups.php:270
+msgid "Update List"
+msgstr "تحديث القائمة"
+
+#: includes/class-master-popups.php:271
+msgid "View List"
+msgstr "عرض القائمة"
+
+#: includes/class-master-popups.php:272
+msgid "View Lists"
+msgstr "عرض القوائم"
+
+#: includes/class-master-popups.php:273
+msgid "Search Lists"
+msgstr "البحث عن القوائم "
+
+#: includes/class-master-popups.php:279
+#, php-format
+msgid "Audience by %s"
+msgstr "الجمهور عن طريق %s "
+
+#: includes/class-master-popups.php:329 includes/class-master-popups.php:359
+msgid "Popup not found"
+msgstr "النافذة المنبثقة غير موجودة"
+
+#: includes/class-master-popups.php:388 includes/class-master-popups.php:458
+msgid "Title"
+msgstr "العنوان"
+
+#: includes/class-master-popups.php:391
+msgid "Impressions"
+msgstr "الانطباعات"
+
+#: includes/class-master-popups.php:392
+msgid "Submits"
+msgstr "حفظ"
+
+#: includes/class-master-popups.php:393
+msgid "Conversion (CTR)"
+msgstr "المحادثة(CTR)"
+
+#: includes/class-master-popups.php:412
+msgid "Please, publish popup"
+msgstr "برجاء نشر النافذة المنبثقة"
+
+#: includes/class-master-popups.php:459
+msgid "Service"
+msgstr "الخدمة"
+
+#: includes/class-master-popups.php:460
+msgid "Total Subscribers"
+msgstr "جميع المشتركين"
+
+#: includes/class-master-popups.php:488
+msgid "Service not defined"
+msgstr "الخدمة غير معرفة"
+
+#: includes/class-mc-editor.php:127
+msgid "Align left"
+msgstr "محاذاة يسارا"
+
+#: includes/class-mc-editor.php:128
+msgid "Align center"
+msgstr "محاذاة بالمركز"
+
+#: includes/class-mc-editor.php:129
+msgid "Align right"
+msgstr "محاذاة يمينا"
+
+#: includes/class-mc-editor.php:135
+msgid "Align top"
+msgstr "محاذاة لأعلي "
+
+#: includes/class-mc-editor.php:136
+msgid "Align middle"
+msgstr "محاذاة بالوسط"
+
+#: includes/class-mc-editor.php:137
+msgid "Align bottom"
+msgstr "محاذاة لأسفل"
+
+#: includes/class-mc-editor.php:143
+msgid "Full width"
+msgstr "العرض الكامل"
+
+#: includes/class-mc-editor.php:144
+msgid "Previous width"
+msgstr "العرض السابق"
+
+#: includes/class-mc-editor.php:145
+msgid "Full height"
+msgstr "الارتفاع الكامل "
+
+#: includes/class-mc-editor.php:146
+msgid "Previous height"
+msgstr "الارتفاع السابق"
+
+#: includes/class-mc-editor.php:155
+msgid "Move Element"
+msgstr "تحريك العنصر"
+
+#: includes/class-mc-editor.php:161
+msgid "Duplicate Element"
+msgstr "تكرار عنصر"
+
+#: includes/class-mc-editor.php:167
+msgid "Remove Element"
+msgstr "حذف عنصر"
+
+#: includes/class-mc-editor.php:216
+msgid "Browser"
+msgstr "متصفح"
+
+#: includes/class-mc-editor.php:318
+msgid "Duplicate"
+msgstr "تكرار"
+
+#: includes/class-mc-editor.php:319
+msgid "Remove"
+msgstr "حذف"
+
+#: includes/class-mc-editor.php:320
+msgid "Copy style"
+msgstr "نسخ النمط"
+
+#: includes/class-mc-editor.php:321
+msgid "Paste style"
+msgstr "لصق النمط"
+
+#: includes/class-options-manager.php:121
+#: includes/class-options-manager.php:183
+msgid "Publish"
+msgstr "نشر"
+
+#: includes/class-options-manager.php:124
+#: includes/class-options-manager.php:186
+msgid "Update"
+msgstr "تحديث"
+
+#: includes/class-options-manager.php:128
+msgid "Preview"
+msgstr "معاينة"
+
+#: includes/class-options-manager.php:161
+#: includes/class-options-manager.php:208
+msgid "Reset to Defaults"
+msgstr "إعادة تعيين الي الاعدادات الافتراضية"
+
+#: includes/class-options-manager.php:198
+msgid "This interface allows you to create a list to store your subscribers."
+msgstr "تتيح لك هذه الواجهه إنشاء قائمة لتحفظ المشتركين لديك"
+
+#: includes/class-options-manager.php:349
+#: includes/options/popup-editor/elements/content.php:186
+msgid "Button styles"
+msgstr "أنماط الزر"
+
+#: includes/class-options-manager.php:349
+msgid ""
+"Click on any button to choose styles. Any previously defined style will be "
+"replaced."
+msgstr "أضغط علي الزر لاختيار النمط.سيتم استبدال أي نمط محدد مسبقا."
+
+#: includes/class-options-manager.php:464
+msgid "- Select your list -"
+msgstr "-أختر قائمتك-"
+
+#: includes/class-options-manager.php:481
+#, php-format
+msgid "%s Subscriber"
+msgid_plural "%s Subscribers"
+msgstr[0] "%s مشترك"
+msgstr[1] "%s مشترك"
+msgstr[2] "%s مشتركان"
+msgstr[3] "%s مشتركين"
+msgstr[4] "%s مشترك"
+msgstr[5] "%s مشترك"
+
+#: includes/class-options-manager.php:491
+msgid "First name"
+msgstr "الاسم الأول"
+
+#: includes/class-options-manager.php:492 includes/class-types.php:457
+msgid "Last name"
+msgstr "الاسم الأخير "
+
+#: includes/class-options-manager.php:493
+#: includes/options/general-settings/service-integration/service-integration.php:134
+#: includes/options/general-settings/service-integration/service-integration.php:137
+msgid "Custom fields"
+msgstr "الحقول المخصصة"
+
+#: includes/class-options-manager.php:494
+msgid "Registration date"
+msgstr "تاريخ التسجيل "
+
+#: includes/class-services.php:75
+msgid "Service not supported"
+msgstr "الخدمة غير مدعومة"
+
+#: includes/class-subscription.php:28
+msgid "\"Audience List\" is empty or has been deleted."
+msgstr "\"قائمة الجمهور\" فارغة أو محذوفة."
+
+#: includes/class-subscription.php:87
+msgid "The service is not yet connected."
+msgstr "الخدمة ليست متصلة بعد."
+
+#: includes/class-subscription.php:102
+msgid "We could not connect with the service. Try again."
+msgstr "لا يمكننا الاتصال بالخدمة. يرجي المحاولة مرة اخري."
+
+#: includes/class-subscription.php:109
+msgid "The list no longer exists in the chosen service."
+msgstr "القائمة لم تعد موجودة في الخدمة المختارة."
+
+#: includes/class-types.php:86
+msgid "Custom text"
+msgstr "نص مخصص"
+
+#: includes/class-types.php:235
+msgid "Download"
+msgstr "تحميل "
+
+#: includes/class-types.php:430
+msgid "Name"
+msgstr "الاسم"
+
+#: includes/class-types.php:515
+msgid "Phone"
+msgstr "هاتف"
+
+#: includes/class-types.php:542
+msgid "Message"
+msgstr "رسالة"
+
+#: includes/class-types.php:573
+msgid "Subscribe"
+msgstr "اشترك"
+
+#: includes/class-types.php:592
+msgid "Custom field"
+msgstr "حقل مخصص"
+
+#: includes/class-types.php:685
+msgid "Select option"
+msgstr "حدد اختيار"
+
+#: includes/options/audience/general/general.php:5
+msgid "Subscribers storage"
+msgstr "تخزين المشتركين"
+
+#: includes/options/audience/general/general.php:12
+#, php-format
+msgid ""
+"Choose where to save your subscribers. If you want to save your subscribers "
+"to third party services such as Milchimp, GetResponse, etc. Please first you "
+"must add it from %shere%s. Tab \"Service Integration\"."
+msgstr ""
+"اختر مكان حفظ المشتركين. إذا كنت تريد حفظ المشتركين في خدمات جهات خارجية مثل "
+"Milchimp و GetResponse ، وما إلى ذلك ، فيجب أولاً إضافتها من %s هنا %s  "
+"علامةالتبويب \"تكامل الخدمة\"."
+
+#: includes/options/audience/general/general.php:31
+msgid "Warning"
+msgstr "تحذير"
+
+#: includes/options/audience/general/general.php:32
+msgid ""
+"It seems that your list no longer exists or the List ID entered is "
+"incorrect. Skip this message if you are sure that the list ID is correct or "
+"the list is not needed."
+msgstr ""
+"يبدو ان قائمتك لم تعد موجودة او ان المعرف المدخل غير صحيح. تجاهل هذه الرسالة "
+"إذا كنت متأكدان معرف القائمة صحيح او انه لم تعد هناك حاجة للقائمة "
+
+#: includes/options/audience/general/general.php:37
+#: includes/options/general-settings/service-integration/service-integration.php:146
+msgid "List ID"
+msgstr "معرف القائمة"
+
+#: includes/options/audience/general/general.php:43
+msgid ""
+"Enter the third party List ID. You can use the following button to try to "
+"get the lists."
+msgstr ""
+"أدخل معرف قائمة الجهات الخاجية.يمكنك استخدام الازرار التالية لمحاولة الحصول "
+"علي القوائم"
+
+#: includes/options/audience/general/general.php:44
+msgid "Get lists"
+msgstr "الحصول علي قوائم"
+
+#: includes/options/audience/subscribers/subscribers.php:5
+msgid "Subscribers list"
+msgstr "قائمة المشتركين"
+
+#: includes/options/audience/subscribers/subscribers.php:17
+msgid "Only subscribers stored in MasterPopups will be displayed in the table."
+msgstr "سيتم عرض فقط المشتركين المحفوظين لدي MasterPopups في الجدول."
+
+#: includes/options/general-settings/activation/activation.php:5
+#: includes/options/general-settings/general-settings.php:11
+msgid "Plugin Activation"
+msgstr "تفعيل الاضافة"
+
+#: includes/options/general-settings/activation/activation.php:20
+#: includes/options/general-settings/service-integration/service-integration.php:56
+#: includes/options/popup-editor/general/popup.php:12
+#: includes/options/popup-editor/triggers/close-triggers.php:13
+#: includes/options/popup-editor/triggers/close-triggers.php:36
+#: includes/options/popup-editor/triggers/close-triggers.php:59
+#: includes/options/popup-editor/triggers/close-triggers.php:96
+#: includes/options/popup-editor/triggers/open-triggers.php:83
+#: includes/options/popup-editor/triggers/open-triggers.php:163
+#: includes/options/popup-editor/triggers/open-triggers.php:228
+#: includes/options/popup-editor/triggers/open-triggers.php:307
+msgid "Status"
+msgstr "الحالة"
+
+#: includes/options/general-settings/activation/activation.php:22
+msgid "Not Activated"
+msgstr "غير مفعل"
+
+#: includes/options/general-settings/activation/activation.php:26
+msgid "Envato Username"
+msgstr "اسم المستخدم Envato"
+
+#: includes/options/general-settings/activation/activation.php:38
+msgid "Envato Api Key"
+msgstr ""
+
+#: includes/options/general-settings/activation/activation.php:41
+#: includes/options/general-settings/activation/activation.php:53
+#, php-format
+msgid "Click %shere%s for more information"
+msgstr "اضغط%s هنا%s للمزيد من المعلومات"
+
+#: includes/options/general-settings/activation/activation.php:50
+msgid "Purchase Code"
+msgstr "كود شراء"
+
+#: includes/options/general-settings/activation/activation.php:62
+msgid "Your email"
+msgstr "بريدك الالكتروني"
+
+#: includes/options/general-settings/activation/activation.php:65
+msgid "To get in touch when you need help"
+msgstr "للتواصل معك حال احتياجك للمساعدة"
+
+#: includes/options/general-settings/activation/activation.php:78
+msgid "Activation type"
+msgstr "نوع التفعيل"
+
+#: includes/options/general-settings/activation/activation.php:82
+msgid "Activation"
+msgstr "تفعيل"
+
+#: includes/options/general-settings/activation/activation.php:83
+msgid "Deactivation"
+msgstr "الغاء التفعيل"
+
+#: includes/options/general-settings/activation/activation.php:93
+msgid "Domain"
+msgstr "نطاق"
+
+#: includes/options/general-settings/activation/activation.php:96
+msgid "Enter the domain in which you want to deactivate the plugin"
+msgstr "ادخل النطاق الذي تريد الغاء تفعيل الإضافة فيه"
+
+#: includes/options/general-settings/activation/activation.php:112
+msgid "Validate Purchase"
+msgstr "التحقق من الشراء"
+
+#: includes/options/general-settings/custom-css/custom-css.php:5
+#: includes/options/general-settings/custom-css/custom-css.php:10
+#: includes/options/general-settings/general-settings.php:9
+#: includes/options/popup-editor/advanced/advanced.php:4
+msgid "Custom CSS"
+msgstr "CSS المخصص"
+
+#: includes/options/general-settings/custom-css/custom-css.php:6
+msgid "Enter your custom css here."
+msgstr "أدخل CSS المخصص لك هنا."
+
+#: includes/options/general-settings/custom-js/custom-js.php:5
+#: includes/options/general-settings/custom-js/custom-js.php:10
+#: includes/options/general-settings/general-settings.php:10
+#: includes/options/popup-editor/advanced/advanced.php:20
+msgid "Custom JS"
+msgstr "JS المخصص"
+
+#: includes/options/general-settings/custom-js/custom-js.php:6
+msgid "Enter your custom js here."
+msgstr "أدخل js المخصص لك هنا."
+
+#: includes/options/general-settings/general-settings.php:7
+#: includes/options/popup-editor/elements/content.php:214
+msgid "Service Integration"
+msgstr "دمج الخدمات"
+
+#: includes/options/general-settings/general/general.php:5
+msgid "MX Record Email Validation"
+msgstr ""
+
+#: includes/options/general-settings/general/general.php:14
+msgid "Load Google Fonts"
+msgstr "تحميل خطوط جوجل"
+
+#: includes/options/general-settings/general/general.php:23
+msgid "Load Font Awesome"
+msgstr "تحميل Font Awesome"
+
+#: includes/options/general-settings/service-integration/service-integration.php:5
+msgid "Available Services"
+msgstr "الخدمات المتاحة"
+
+#: includes/options/general-settings/service-integration/service-integration.php:6
+msgid ""
+"From here you can integrate to MasterPopups your favorite email marketing "
+"software."
+msgstr ""
+"يمكنك دمج برنامجك المفضل للتسوق عبر البريد الالكتروني الي MasterPopups من "
+"هنا."
+
+#: includes/options/general-settings/service-integration/service-integration.php:19
+msgid "Integrated services"
+msgstr "الخدمات المدمجة"
+
+#: includes/options/general-settings/service-integration/service-integration.php:20
+msgid ""
+"Once the service is integrated, you have to connect with your account to "
+"start creating campaigns."
+msgstr "بمجرد دمج الخدمة ، يجب عليك الاتصال بحسابك لبدء إنشاء الحملات."
+
+#: includes/options/general-settings/service-integration/service-integration.php:24
+msgid "Services"
+msgstr "الخدمات"
+
+#: includes/options/general-settings/service-integration/service-integration.php:45
+#: includes/options/general-settings/service-integration/service-integration.php:123
+msgid "Connect service"
+msgstr "الاتصال بالخدمة"
+
+#: includes/options/general-settings/service-integration/service-integration.php:46
+msgid ""
+"Use the following options to connect to the service. all access data is "
+"required."
+msgstr "استخدم الخيارات التالية للاتصال بالخدمة. جميع بيانات الوصول مطلوبة."
+
+#: includes/options/general-settings/service-integration/service-integration.php:58
+msgid "Logout"
+msgstr "تسجيل خروج"
+
+#: includes/options/general-settings/service-integration/service-integration.php:62
+msgid "Access data"
+msgstr "بيانات الوصول"
+
+#: includes/options/general-settings/service-integration/service-integration.php:68
+#: includes/options/general-settings/service-integration/service-integration.php:78
+#: includes/options/general-settings/service-integration/service-integration.php:111
+#, php-format
+msgid "Where do I find this? %sGo here%s"
+msgstr "اين اجد هذا؟ %s اذهب هنا%s"
+
+#: includes/options/general-settings/service-integration/service-integration.php:86
+msgid "Email account or username"
+msgstr "البريد الالكتروني او اسم المستخدم"
+
+#: includes/options/general-settings/service-integration/service-integration.php:96
+msgid "Password"
+msgstr "الرقم السري"
+
+#: includes/options/general-settings/service-integration/service-integration.php:129
+msgid "Explore custom fields"
+msgstr "اكتشف حقول مخصصة"
+
+#: includes/options/general-settings/service-integration/service-integration.php:130
+msgid ""
+"The next option will allow you to obtain all the custom fields that this "
+"service has."
+msgstr ""
+"الاختيار التالي سوف يسمح لك بالحصول علي الحقول المخصصة التي تحويها هذه "
+"الخدمة."
+
+#: includes/options/general-settings/service-integration/service-integration.php:149
+#, php-format
+msgid ""
+"Some services like %s require a list id to get the custom fields. Leave "
+"empty if you are not sure."
+msgstr ""
+"بعض الخدمات مثل %s تحتاج الي معرف قائمة للحصول علي حقول مخصصة. اتركها فارغة "
+"اذا كنت غير متأكد."
+
+#: includes/options/general-settings/service-integration/service-integration.php:157
+msgid "Get custom fields"
+msgstr "الحصول علي حقول مخصصة"
+
+#: includes/options/popup-editor/advanced/advanced.php:38
+msgid "You can use these functions to run your own code."
+msgstr "يمكنك استخدام الوظائف التالية لتشغيل الكود الخاص بك."
+
+#: includes/options/popup-editor/advanced/advanced.php:56
+msgid "After Open Popup"
+msgstr "بعد فتح النافذة المنبثقة"
+
+#: includes/options/popup-editor/advanced/advanced.php:63
+#: includes/options/popup-editor/advanced/advanced.php:91
+#: includes/options/popup-editor/advanced/advanced.php:106
+msgid ""
+"Please enter valid javascript code. You can use jQuery or $. Important: Do "
+"not enter anything before or after the function."
+msgstr ""
+"الرجاء إدخال شفرة javascript صالحة. يمكنك استخدام jQuery أو $. هام: لا تدخل "
+"أي شيء قبل أو بعد الوظيفة."
+
+#: includes/options/popup-editor/advanced/advanced.php:84
+msgid "After Close Popup"
+msgstr "بعد إغلاق النافذة المنبثقة"
+
+#: includes/options/popup-editor/advanced/advanced.php:99
+msgid "After Form Submission"
+msgstr "بعد تقديم النموذج"
+
+#: includes/options/popup-editor/elements/actions.php:3
+msgid "OnClick actions"
+msgstr "إجراءات Onclick"
+
+#: includes/options/popup-editor/elements/actions.php:6
+msgid "Action"
+msgstr "الاجراء"
+
+#: includes/options/popup-editor/elements/actions.php:10
+msgid "Default"
+msgstr "الوضع الافتراضي"
+
+#: includes/options/popup-editor/elements/actions.php:11
+#: includes/options/popup-editor/form-submission/actions-form.php:63
+msgid "Close popup"
+msgstr "إغلاق النافذة المنبثقة"
+
+#: includes/options/popup-editor/elements/actions.php:12
+#: includes/options/popup-editor/form-submission/actions-form.php:87
+msgid "Close popup and Open another popup"
+msgstr "أغلاق نافذة منبثقة وفتح نافذة اخري"
+
+#: includes/options/popup-editor/elements/actions.php:13
+#: includes/options/popup-editor/form-submission/actions-form.php:141
+msgid "Redirect to URL"
+msgstr "إعادة التوجيه إلي URL"
+
+#: includes/options/popup-editor/elements/actions.php:21
+msgid "Popup id"
+msgstr "معرف النافذة المنبثقة"
+
+#: includes/options/popup-editor/elements/actions.php:23
+#: includes/options/popup-editor/form-submission/actions-form.php:89
+msgid "Enter the popup id. E.g: 20"
+msgstr "ادخل معرف النافذة المنبثقة.E.g: 20"
+
+#: includes/options/popup-editor/elements/actions.php:31
+msgid "Enter URL"
+msgstr "ادخل URL"
+
+#: includes/options/popup-editor/elements/actions.php:33
+msgid "Enter a valid url with http/https. e.g: http://google.com"
+msgstr "ادخل URL متاح يحتوي http/https مثال:http://google.com"
+
+#: includes/options/popup-editor/elements/actions.php:45
+msgid "Same Window"
+msgstr "نفس النافذة"
+
+#: includes/options/popup-editor/elements/actions.php:46
+msgid "New Window"
+msgstr "نافذة اخري"
+
+#: includes/options/popup-editor/elements/advanced.php:18
+msgid "Opacity"
+msgstr "الشفافية"
+
+#: includes/options/popup-editor/elements/animation.php:4
+#: includes/options/popup-editor/general/animations.php:4
+msgid "Entry animation"
+msgstr "حركة الدخول"
+
+#: includes/options/popup-editor/elements/animation.php:7
+#: includes/options/popup-editor/elements/background.php:110
+#: includes/options/popup-editor/elements/border.php:95
+#: includes/options/popup-editor/elements/border.php:124
+#: includes/options/popup-editor/elements/font.php:128
+#: includes/options/popup-editor/form-submission/actions-form.php:22
+#: includes/options/popup-editor/form-submission/actions-form.php:66
+#: includes/options/popup-editor/general/additional.php:85
+#: includes/options/popup-editor/general/popup.php:159
+#: includes/options/popup-editor/general/sticky.php:8
+#: includes/options/popup-editor/triggers/close-triggers.php:16
+#: includes/options/popup-editor/triggers/close-triggers.php:39
+#: includes/options/popup-editor/triggers/close-triggers.php:62
+#: includes/options/popup-editor/triggers/close-triggers.php:99
+#: includes/options/popup-editor/triggers/open-triggers.php:86
+#: includes/options/popup-editor/triggers/open-triggers.php:116
+#: includes/options/popup-editor/triggers/open-triggers.php:166
+#: includes/options/popup-editor/triggers/open-triggers.php:182
+#: includes/options/popup-editor/triggers/open-triggers.php:231
+#: includes/options/popup-editor/triggers/open-triggers.php:261
+#: includes/options/popup-editor/triggers/open-triggers.php:310
+#: includes/options/popup-editor/triggers/open-triggers.php:362
+msgid "Enable"
+msgstr "تفعيل"
+
+#: includes/options/popup-editor/elements/animation.php:13
+#: includes/options/popup-editor/general/animations.php:7
+#: includes/options/popup-editor/general/animations.php:31
+msgid "Animation effect"
+msgstr "تأثيرات الحركة"
+
+#: includes/options/popup-editor/elements/animation.php:23
+#: includes/options/popup-editor/general/animations.php:14
+#: includes/options/popup-editor/general/animations.php:38
+msgid "Animation duration"
+msgstr "مدة الحركة"
+
+#: includes/options/popup-editor/elements/animation.php:38
+msgid "Animation delay"
+msgstr "تأخير الحركة"
+
+#: includes/options/popup-editor/elements/attributes.php:8
+msgid "E.g. custom-id"
+msgstr "معرف القائمة"
+
+#: includes/options/popup-editor/elements/attributes.php:12
+msgid "Class"
+msgstr "فئة"
+
+#: includes/options/popup-editor/elements/attributes.php:16
+msgid "E.g: custom-class"
+msgstr ""
+
+#: includes/options/popup-editor/elements/attributes.php:24
+msgid "E.g: Custom title"
+msgstr ""
+
+#: includes/options/popup-editor/elements/background.php:71
+msgid "Enable gradient"
+msgstr "تمكين التدرج"
+
+#: includes/options/popup-editor/elements/background.php:88
+msgid "Angle"
+msgstr "زاوية"
+
+#: includes/options/popup-editor/elements/border.php:5
+msgid "Border top width"
+msgstr "عرض الاطار الأعلى"
+
+#: includes/options/popup-editor/elements/border.php:17
+msgid "Border right width"
+msgstr "عرض الاطار الأيمن"
+
+#: includes/options/popup-editor/elements/border.php:29
+msgid "Border bottom width"
+msgstr "عرض الاطار الأسفل"
+
+#: includes/options/popup-editor/elements/border.php:41
+msgid "Border left width"
+msgstr "عرض الاطار الأيسر"
+
+#: includes/options/popup-editor/elements/border.php:53
+#: includes/options/popup-editor/elements/border.php:101
+#: includes/options/popup-editor/elements/border.php:130
+msgid "Border color"
+msgstr "لون الاطار"
+
+#: includes/options/popup-editor/elements/border.php:63
+msgid "Border style"
+msgstr "نمط الاطار"
+
+#: includes/options/popup-editor/elements/border.php:72
+#: includes/options/popup-editor/general/additional.php:4
+msgid "Border radius"
+msgstr "سمك الاطار"
+
+#: includes/options/popup-editor/elements/content.php:6
+msgid "Text/HTML"
+msgstr "نصوص/HTMl"
+
+#: includes/options/popup-editor/elements/content.php:13
+msgid "Insert icon"
+msgstr "ادخال ايقونه"
+
+#: includes/options/popup-editor/elements/content.php:21
+#, php-format
+msgid ""
+"Please enter only %s. Not html. We recommend going to Advanced tab and in "
+"the \"Overflow\" option choose \"Auto\""
+msgstr ""
+"فضلا اضغط %s فقط وليس html .يفضل الذهاب الي علامة التبويب وفي\"الزائد\" اختر "
+"\"تلقائي\""
+
+#: includes/options/popup-editor/elements/content.php:44
+msgid "Choose object"
+msgstr "اختر كائن"
+
+#: includes/options/popup-editor/elements/content.php:59
+msgid "Image URL"
+msgstr "رابط الصورة"
+
+#: includes/options/popup-editor/elements/content.php:73
+msgid "Iframe URL"
+msgstr ""
+
+#: includes/options/popup-editor/elements/content.php:83
+msgid "Choose video type"
+msgstr "اختر نوع الفيديو"
+
+#: includes/options/popup-editor/elements/content.php:94
+msgid "Video URL"
+msgstr "رابط الفيديو"
+
+#: includes/options/popup-editor/elements/content.php:97
+msgid "Example:"
+msgstr "مثال:"
+
+#: includes/options/popup-editor/elements/content.php:106
+msgid "HTML5 Video URL"
+msgstr "HTML5 Video URL"
+
+#: includes/options/popup-editor/elements/content.php:117
+msgid "Video thumbnail"
+msgstr "تصغير الفيديو"
+
+#: includes/options/popup-editor/elements/content.php:119
+msgid "Load"
+msgstr "تحميل"
+
+#: includes/options/popup-editor/elements/content.php:127
+msgid "From custom url"
+msgstr "من الروابط المخصصة"
+
+#: includes/options/popup-editor/elements/content.php:142
+msgid "Play icon"
+msgstr "ايقونة التشغيل"
+
+#: includes/options/popup-editor/elements/content.php:158
+msgid "Autoplay"
+msgstr "تشغيل تلقائي"
+
+#: includes/options/popup-editor/elements/content.php:164
+#: includes/options/popup-editor/elements/content.php:174
+msgid "Parameters"
+msgstr "العوامل"
+
+#: includes/options/popup-editor/elements/content.php:204
+msgid "Field name"
+msgstr "اسم الحقل"
+
+#: includes/options/popup-editor/elements/content.php:207
+msgid "Attribute \"name\" of the field."
+msgstr "سمة \"اسم\" الحقل."
+
+#: includes/options/popup-editor/elements/content.php:214
+#, php-format
+msgid ""
+"If you wish you can also enter the name of the custom field of your service. "
+"Go to %s and Explore your custom fields."
+msgstr ""
+"اذا اردت يمكنك أيضا ادخال اسم الحقل المخصص للخدمة لديك.اذهب الي %s واكتشف "
+"الحقول المخصصة لك."
+
+#: includes/options/popup-editor/elements/content.php:218
+msgid "Default value"
+msgstr "القيمة الافتراضية"
+
+#: includes/options/popup-editor/elements/content.php:224
+msgid "Required field"
+msgstr "الحقل مطلوب"
+
+#: includes/options/popup-editor/elements/content.php:226
+msgid "Enable to make this field mandatory when submitting the form."
+msgstr "تمكين جعل هذا الحقل إلزاميًا عند إرسال النموذج."
+
+#: includes/options/popup-editor/elements/content.php:230
+msgid "Checked"
+msgstr "مفعل"
+
+#: includes/options/popup-editor/elements/content.php:233
+msgid "Checked by default"
+msgstr "مفعل بشكل افتراضي"
+
+#: includes/options/popup-editor/elements/content.php:239
+#: includes/options/popup-editor/general/wp-editor.php:155
+msgid "Color"
+msgstr "لون"
+
+#: includes/options/popup-editor/elements/content.php:242
+msgid "The color when it is activated."
+msgstr "اللون عندما يكون مفعلا"
+
+#: includes/options/popup-editor/elements/content.php:251
+msgid "Options"
+msgstr "اختيارات"
+
+#: includes/options/popup-editor/elements/content.php:254
+msgid ""
+"Please enter the list of options, one option for each line. It is also "
+"possible to add: value|Display"
+msgstr ""
+"فضلا ادخل قائمة الاختيارات, اختيار واحد لكل سطر.يمكنك أيضا إضافة: value|"
+"Display"
+
+#: includes/options/popup-editor/elements/main.php:18
+#: includes/options/popup-editor/elements/main.php:103
+msgid "Elements"
+msgstr "عناصر"
+
+#: includes/options/popup-editor/elements/main.php:44
+msgid "Content"
+msgstr "محتوي"
+
+#: includes/options/popup-editor/elements/main.php:45
+msgid "Size & Position"
+msgstr "الحجم والمكان"
+
+#: includes/options/popup-editor/elements/main.php:46
+msgid "Font"
+msgstr "الخط"
+
+#: includes/options/popup-editor/elements/main.php:47
+msgid "Background"
+msgstr "الخلفية"
+
+#: includes/options/popup-editor/elements/main.php:48
+msgid "Border"
+msgstr "الاطار"
+
+#: includes/options/popup-editor/elements/main.php:49
+msgid "Animation"
+msgstr "الحركة"
+
+#: includes/options/popup-editor/elements/main.php:50
+#: includes/options/popup-editor/popup-editor.php:13
+msgid "Advanced"
+msgstr "متقدم"
+
+#: includes/options/popup-editor/elements/main.php:51
+msgid "Actions"
+msgstr "إلاجراءات"
+
+#: includes/options/popup-editor/elements/main.php:52
+msgid "Attributes"
+msgstr "سمات"
+
+#: includes/options/popup-editor/elements/size-position.php:3
+#: includes/options/popup-editor/general/popup.php:16
+msgid "Position"
+msgstr "المكان"
+
+#: includes/options/popup-editor/elements/size-position.php:6
+msgid "Top"
+msgstr "لاعلي"
+
+#: includes/options/popup-editor/elements/size-position.php:16
+msgid "Left"
+msgstr "يسار"
+
+#: includes/options/popup-editor/elements/size-position.php:26
+msgid "On top right of the page"
+msgstr "اعلي يمين الصفحة"
+
+#: includes/options/popup-editor/elements/size-position.php:32
+#: includes/options/popup-editor/general/wp-editor.php:142
+msgid "Size"
+msgstr "الحجم"
+
+#: includes/options/popup-editor/elements/size-position.php:35
+#: includes/options/popup-editor/general/popup.php:41
+#: includes/options/popup-editor/general/sticky.php:39
+msgid "Width"
+msgstr "العرض"
+
+#: includes/options/popup-editor/elements/size-position.php:38
+msgid "Element width, add only numbers or \"auto\""
+msgstr "عرض العنصر ,اكتب ارقام فقط او \"تلقائي\""
+
+#: includes/options/popup-editor/elements/size-position.php:50
+#: includes/options/popup-editor/general/popup.php:54
+#: includes/options/popup-editor/general/sticky.php:51
+msgid "Height"
+msgstr "الارتفاع"
+
+#: includes/options/popup-editor/elements/size-position.php:53
+msgid "Element height, add only numbers or \"auto\""
+msgstr "ارتفاع العنصر ,اكتب ارقام فقط او\" تلقائي\""
+
+#: includes/options/popup-editor/elements/size-position.php:65
+#: includes/options/popup-editor/general/popup.php:67
+msgid "Full screen"
+msgstr "تكبير الشاشة"
+
+#: includes/options/popup-editor/elements/size-position.php:68
+msgid "This element will cover the entire screen area"
+msgstr "سيغطي هذا العنصر مساحة الشاشة بأكملها"
+
+#: includes/options/popup-editor/elements/size-position.php:76
+#: includes/options/popup-editor/general/wp-editor.php:54
+msgid "Padding"
+msgstr "الهوامش"
+
+#: includes/options/popup-editor/elements/size-position.php:79
+msgid "Padding top"
+msgstr "الهامش لاعلي "
+
+#: includes/options/popup-editor/elements/size-position.php:92
+msgid "Padding right"
+msgstr "الهامش يمينا"
+
+#: includes/options/popup-editor/elements/size-position.php:105
+msgid "Padding bottom"
+msgstr "الهامش الاسفل "
+
+#: includes/options/popup-editor/elements/size-position.php:118
+msgid "Padding left"
+msgstr "الهامش يسارا"
+
+#: includes/options/popup-editor/export/export.php:4
+#: includes/options/popup-editor/popup-editor.php:15
+msgid "Export your popup"
+msgstr "ارسال النافذة المنبثقة الخاصة بك"
+
+#: includes/options/popup-editor/export/export.php:5
+msgid ""
+"Save your popup template and use it on another website. Save the data in ."
+"json format"
+msgstr ""
+"احفظ نموذج النافذة المنبثقة واستخدمه على موقع ويب آخر. احفظ البيانات بتنسيق "
+"json. ."
+
+#: includes/options/popup-editor/form-submission/actions-form.php:7
+msgid "Successful form submission"
+msgstr "تقديم نموذج ناجح"
+
+#: includes/options/popup-editor/form-submission/actions-form.php:8
+msgid "What would you like to do when the form was successfully submitted?"
+msgstr "ماذا تريد أن تفعل عندما يتم إرسال النموذج بنجاح؟"
+
+#: includes/options/popup-editor/form-submission/actions-form.php:17
+msgid "Set cookie after conversion"
+msgstr "تعيين ملف تعريف الارتباط بعد التحويل"
+
+#: includes/options/popup-editor/form-submission/actions-form.php:18
+msgid ""
+"Enable this option to not display again the popup after successful form "
+"submission."
+msgstr ""
+"تفعيل هذا الخيار لعدم عرض النافذة المنبثقة مرة أخرى بعد إرسال النموذج بنجاح."
+
+#: includes/options/popup-editor/form-submission/actions-form.php:32
+#: includes/options/popup-editor/triggers/open-triggers.php:126
+#: includes/options/popup-editor/triggers/open-triggers.php:192
+#: includes/options/popup-editor/triggers/open-triggers.php:271
+#: includes/options/popup-editor/triggers/open-triggers.php:372
+msgid "Cookie duration"
+msgstr "مدة ملف تعريف الارتباط"
+
+#: includes/options/popup-editor/form-submission/actions-form.php:36
+#: includes/options/popup-editor/triggers/open-triggers.php:130
+#: includes/options/popup-editor/triggers/open-triggers.php:196
+#: includes/options/popup-editor/triggers/open-triggers.php:275
+#: includes/options/popup-editor/triggers/open-triggers.php:376
+msgid "Current session"
+msgstr "الجلسة الحالية"
+
+#: includes/options/popup-editor/form-submission/actions-form.php:37
+#: includes/options/popup-editor/triggers/open-triggers.php:131
+#: includes/options/popup-editor/triggers/open-triggers.php:197
+#: includes/options/popup-editor/triggers/open-triggers.php:276
+#: includes/options/popup-editor/triggers/open-triggers.php:377
+msgid "Define days"
+msgstr "حدد الأيام"
+
+#: includes/options/popup-editor/form-submission/actions-form.php:42
+#: includes/options/popup-editor/triggers/open-triggers.php:136
+#: includes/options/popup-editor/triggers/open-triggers.php:202
+#: includes/options/popup-editor/triggers/open-triggers.php:281
+#: includes/options/popup-editor/triggers/open-triggers.php:382
+msgid "Days"
+msgstr "الايام"
+
+#: includes/options/popup-editor/form-submission/actions-form.php:43
+#: includes/options/popup-editor/triggers/open-triggers.php:137
+#: includes/options/popup-editor/triggers/open-triggers.php:203
+#: includes/options/popup-editor/triggers/open-triggers.php:282
+#: includes/options/popup-editor/triggers/open-triggers.php:383
+msgid "The popup will be displayed once every \"X\" days."
+msgstr "سيتم عرض النافذة المنبثقة مرة واحدة كل\"X\" يوم."
+
+#: includes/options/popup-editor/form-submission/actions-form.php:72
+msgid "Close popup after"
+msgstr "إغلاق النافذة المنبثقة بعد"
+
+#: includes/options/popup-editor/form-submission/actions-form.php:104
+msgid "Download file"
+msgstr "تنزيل الملف"
+
+#: includes/options/popup-editor/form-submission/actions-form.php:115
+msgid "File to download"
+msgstr "ملف للتنزيل"
+
+#: includes/options/popup-editor/form-submission/actions-form.php:118
+msgid ""
+"Enter the url of the file that the user will download after sending the "
+"form. Add http/https. e.g: http://google.com"
+msgstr ""
+"أدخل عنوانURL الخاص بالملف الذي سيقوم المستخدم بتنزيله بعد إرسال النموذج.اضف "
+"http/https.مثال: http://google.com"
+
+#: includes/options/popup-editor/form-submission/actions-form.php:130
+msgid "Redirect user"
+msgstr "إعادة توجيه المستخدم"
+
+#: includes/options/popup-editor/form-submission/actions-form.php:144
+msgid ""
+"Enter the url where you would like to redirect the user after sending the "
+"form. Add http/https. e.g: http://google.com"
+msgstr ""
+"ادخل الرابط المراد إعادة توجيه المستخدم عليه بعد ارسال النموذج.أضف http/"
+"https مثال: http://google.com"
+
+#: includes/options/popup-editor/form-submission/contact-form.php:8
+#: includes/options/popup-editor/form-submission/subscription-form.php:15
+msgid "Message after success"
+msgstr "رسالة بعد نجاح العملية"
+
+#: includes/options/popup-editor/form-submission/contact-form.php:10
+msgid "Thank you. We will contact you as soon as possible."
+msgstr "شكرا .سوف نقوم بالتواصل معكم في اقرب وقت ممكن."
+
+#: includes/options/popup-editor/form-submission/contact-form.php:18
+#: includes/options/popup-editor/form-submission/subscription-form.php:25
+msgid "Message after failed"
+msgstr "رسالة بعد فشل العملية"
+
+#: includes/options/popup-editor/form-submission/contact-form.php:20
+msgid "There was an error trying to send your message. Please try again later."
+msgstr "حدث خطأ ما اثناء ارسال رسالتك. يرجي إعادة المحاولة."
+
+#: includes/options/popup-editor/form-submission/contact-form.php:28
+msgid "Mail"
+msgstr "بريد الكتروني"
+
+#: includes/options/popup-editor/form-submission/contact-form.php:33
+#: includes/options/popup-editor/form-submission/subscription-form.php:48
+msgid "To"
+msgstr "الي"
+
+#: includes/options/popup-editor/form-submission/contact-form.php:36
+msgid ""
+"Enter the email address that will receive the message. e.g: admin@gmail.com, "
+"editor@gmail.com"
+msgstr ""
+"ادخل البريد الالكتروني الذي سيتلقي الرسالة مثال: admin@gmail.com, "
+"editor@gmail.com"
+
+#: includes/options/popup-editor/form-submission/contact-form.php:40
+#: includes/options/popup-editor/form-submission/subscription-form.php:55
+#: includes/options/popup-editor/form-submission/subscription-form.php:114
+msgid "Subject"
+msgstr "الموضوع"
+
+#: includes/options/popup-editor/form-submission/contact-form.php:42
+msgid "New contact form submission"
+msgstr "تقديم نموذج جديد للاتصال"
+
+#: includes/options/popup-editor/form-submission/contact-form.php:43
+#: includes/options/popup-editor/form-submission/subscription-form.php:58
+#: includes/options/popup-editor/form-submission/subscription-form.php:117
+msgid "This value is subject field of the message."
+msgstr "هذه قيمة عنوان الرسالة."
+
+#: includes/options/popup-editor/form-submission/contact-form.php:47
+#: includes/options/popup-editor/form-submission/subscription-form.php:62
+#: includes/options/popup-editor/form-submission/subscription-form.php:121
+msgid "Message body"
+msgstr "جسم الرسالة"
+
+#: includes/options/popup-editor/form-submission/contact-form.php:49
+#: includes/options/popup-editor/form-submission/subscription-form.php:64
+#: includes/options/popup-editor/form-submission/subscription-form.php:123
+#, php-format
+msgid "Tip: {render=%s} e.g: %s"
+msgstr ""
+
+#: includes/options/popup-editor/form-submission/contact-form.php:49
+#: includes/options/popup-editor/form-submission/subscription-form.php:64
+#: includes/options/popup-editor/form-submission/subscription-form.php:123
+msgid "This value is exactly the \"field name\" you want to render"
+msgstr "هذه القيمة هي \"اسم الحقل\"الذي تريد تقديمه"
+
+#: includes/options/popup-editor/form-submission/customize-form.php:103
+msgid "Show text \"Back to form/Close\" on success"
+msgstr "اظهر النص \"العودة للنموذج/إغلاق\"حالة نجاح العملية"
+
+#: includes/options/popup-editor/form-submission/form-submission.php:5
+msgid "Form Type"
+msgstr "نوع النموذج"
+
+#: includes/options/popup-editor/form-submission/form-submission.php:13
+msgid "None"
+msgstr "لا شيء"
+
+#: includes/options/popup-editor/form-submission/form-submission.php:14
+#: includes/options/popup-editor/form-submission/form-submission.php:24
+msgid "Subscription Form"
+msgstr "نموذج الاشتراك."
+
+#: includes/options/popup-editor/form-submission/form-submission.php:15
+#: includes/options/popup-editor/form-submission/form-submission.php:25
+msgid "Contact Form"
+msgstr "نموذج الاتصال"
+
+#: includes/options/popup-editor/form-submission/form-submission.php:26
+msgid "Actions after submission"
+msgstr "الإجراءات بعد التسجيل"
+
+#: includes/options/popup-editor/form-submission/form-submission.php:27
+msgid "Customize"
+msgstr "تخصيص"
+
+#: includes/options/popup-editor/form-submission/subscription-form.php:10
+#, php-format
+msgid ""
+"Choose the list where subscribed users will be stored. You can create a new "
+"list from %shere%s."
+msgstr ""
+"اختر القائمة التي سوف يحفظ فيها المستخدمين المشتركين.يمكنك إنشاء قائمة جديدة "
+"من %s هنا %s."
+
+#: includes/options/popup-editor/form-submission/subscription-form.php:17
+msgid "Thank you for subscribing!"
+msgstr "شكرا لإشتراككم!"
+
+#: includes/options/popup-editor/form-submission/subscription-form.php:27
+msgid ""
+"Sorry, it's not possible to subscribe, you may have already subscribed to "
+"our list or there are problems connecting to the service."
+msgstr ""
+"عذرا, لا يمكنك الاشتراك, ربما تكون مشترك بالفعل ضمن قائمتنا او هناك مشكلة في "
+"الاتصال بهذه الخدمة."
+
+#: includes/options/popup-editor/form-submission/subscription-form.php:34
+msgid "Email Notification to Admin"
+msgstr "ارسل اشعار عبر البريد الالكتروني الخاص بمدير الموقع"
+
+#: includes/options/popup-editor/form-submission/subscription-form.php:41
+#: includes/options/popup-editor/form-submission/subscription-form.php:99
+msgid "Send Notification"
+msgstr "ارسل اشعار"
+
+#: includes/options/popup-editor/form-submission/subscription-form.php:44
+msgid "Enable to send an email notification to the website administrator."
+msgstr "يمكن ارسال اشعار عبر البريد الالكتروني الخاص بمدير الموقع."
+
+#: includes/options/popup-editor/form-submission/subscription-form.php:51
+msgid ""
+"Enter the email address that will receive the notification message. e.g: "
+"admin@gmail.com, editor@gmail.com"
+msgstr ""
+"ادخل البريد الالكتروني الذي سيتلقي رسالة الاشعار مثال:admin@gmail.com,"
+"editor@gmail.com"
+
+#: includes/options/popup-editor/form-submission/subscription-form.php:57
+msgid "New user subscription"
+msgstr "اشتراك مستخدم جديد"
+
+#: includes/options/popup-editor/form-submission/subscription-form.php:64
+#, php-format
+msgid ""
+"This message will be sent to an administrator after a new subscription. %s"
+msgstr "هذه لرساله سوف يتم ارسالها الي مدير الموقع بعد الاشتراك الجديد.%s"
+
+#: includes/options/popup-editor/form-submission/subscription-form.php:91
+msgid "Email Notification to New Subscriber"
+msgstr "ارسل اشعار عبر البريد الالكيروني الخاص بالمشترك الجديد"
+
+#: includes/options/popup-editor/form-submission/subscription-form.php:92
+msgid ""
+"Use this option to send welcome messages, discount coupons, download links, "
+"etc."
+msgstr ""
+"استخدم هذا الاختيار لارسال رسائل ترحيب , قسائم خصم , روابط للتحميل, الي اخره."
+
+#: includes/options/popup-editor/form-submission/subscription-form.php:102
+msgid "Enable to send an email notification to the new subscriber."
+msgstr "يمكن ارسال اشعار عبر البريد الالكتروني الخاص بالمشترك الجديد."
+
+#: includes/options/popup-editor/form-submission/subscription-form.php:106
+msgid "From"
+msgstr "من"
+
+#: includes/options/popup-editor/form-submission/subscription-form.php:109
+#, php-format
+msgid "Sender name and email. Please enter a valid format. E.g: User %s or %s"
+msgstr ""
+"اسم المرسل وبريده الالكتروني . فضلا ادخل صيغه متاحه مثال :مستخدم %s او %s"
+
+#: includes/options/popup-editor/form-submission/subscription-form.php:116
+msgid "Thank you for subscribing. This is your discount coupon"
+msgstr "شكرا لاشتراككم. هذه هي قسيمة الخصم الخاصة بكم."
+
+#: includes/options/popup-editor/form-submission/subscription-form.php:123
+#, php-format
+msgid "This message will be sent to the new subscriber. %s"
+msgstr "هذه الرسالة سوف يتم اسالها الي المشترك الجديد.%s"
+
+#: includes/options/popup-editor/general/additional.php:23
+msgid "Margin top"
+msgstr "هامش خارجي لأعلي."
+
+#: includes/options/popup-editor/general/additional.php:35
+msgid "Margin bottom"
+msgstr "هامش خارجي لأسفل"
+
+#: includes/options/popup-editor/general/additional.php:73
+msgid "Disable page scroll"
+msgstr "تعطيل تمرير الصفحة"
+
+#: includes/options/popup-editor/general/additional.php:76
+msgid "Disable scrolling while the popup is open"
+msgstr "تعطيل تمرير الصفحة إذا كانت النافذة المنبثقة مفتوحة"
+
+#: includes/options/popup-editor/general/additional.php:82
+msgid "Play Notification Sound"
+msgstr "تفعيل صوت الاشعار"
+
+#: includes/options/popup-editor/general/additional.php:91
+msgid "Play delay"
+msgstr "تأخير التشغيل."
+
+#: includes/options/popup-editor/general/additional.php:106
+msgid "Audio"
+msgstr "الصوت"
+
+#: includes/options/popup-editor/general/animations.php:28
+msgid "Exit animation"
+msgstr "خروج الحركة"
+
+#: includes/options/popup-editor/general/general.php:6
+msgid "Animations"
+msgstr "الحركات"
+
+#: includes/options/popup-editor/general/general.php:10
+msgid "Additional Settings"
+msgstr "اعدادات اضافية"
+
+#: includes/options/popup-editor/general/overlay.php:4
+msgid "Show overlay"
+msgstr "اظهر Overlay"
+
+#: includes/options/popup-editor/general/overlay.php:5
+msgid ""
+"Disable this option if you do not want to display an overlay background. "
+"Overlay will never show for \"Notification Bar\""
+msgstr ""
+"عطل هذا الاختيار اذا كنت لاتريد تشغيل خلفية ال Overlay.سوف لا يظهر Overlay "
+"في \"شريط الاشعارات\""
+
+#: includes/options/popup-editor/general/overlay.php:9
+msgid "Overlay background"
+msgstr "خلفيه الOverlay"
+
+#: includes/options/popup-editor/general/overlay.php:67
+msgid "Overlay opacity"
+msgstr "شفافية ال Overlay"
+
+#: includes/options/popup-editor/general/popup.php:4
+msgid "Popup status"
+msgstr "حالة النافذة المنبثقة"
+
+#: includes/options/popup-editor/general/popup.php:5
+msgid "If it is off, the popup will stop showing on your website."
+msgstr "اذا كانت مغلقة ,سوف تظهر النافذة المنبثقة علي الموقع لديك."
+
+#: includes/options/popup-editor/general/popup.php:38
+msgid "Popup size"
+msgstr "حجم النافذة المنبثقة"
+
+#: includes/options/popup-editor/general/popup.php:70
+msgid ""
+"The popup will cover the entire screen area. This option will overwrite the "
+"previous size options."
+msgstr ""
+"النافذه المنبثقه سوف تغطي الشاشة كاملة .هذا الاختيار يمكنك من تعديل "
+"الاختيارات السابقه للحجم."
+
+#: includes/options/popup-editor/general/popup.php:77
+msgid "Browser Width"
+msgstr "عرض المتصفح"
+
+#: includes/options/popup-editor/general/popup.php:83
+msgid "Browser Height"
+msgstr "ارتفاع المتصفح"
+
+#: includes/options/popup-editor/general/popup.php:89
+msgid "Popup background"
+msgstr "خلفية النافذة المنبثقة"
+
+#: includes/options/popup-editor/general/popup.php:154
+msgid "Custom design for mobile"
+msgstr "تصميم مخصص للهاتف"
+
+#: includes/options/popup-editor/general/popup.php:155
+msgid ""
+"Enable this option to design a specific popup for mobile devices. Use the "
+"mobile icon below to switch between devices. *Not available for inline "
+"popups."
+msgstr ""
+"فعل هذا الاختيار لتصميم نافذة منبثقة خاصه بأجهزة الهاتف المحمول . استخدم "
+"ايقونة الهاتف المحمول السفلي للتحويل بين الأجهزة*غير متوفر للنوافذ Inline "
+"المنبثقة."
+
+#: includes/options/popup-editor/general/popup.php:165
+msgid "Browser width on mobile"
+msgstr "عرض المتصفح علي الهاتف المحمول."
+
+#: includes/options/popup-editor/general/popup.php:178
+msgid "Popup width for mobile"
+msgstr "عرض النافذة المنبثقة للهاتف المحمول."
+
+#: includes/options/popup-editor/general/popup.php:191
+msgid "Popup height for mobile"
+msgstr "ارتفاع النافذه المنبثقه علي الهاتف المحمول."
+
+#: includes/options/popup-editor/general/preloader.php:10
+msgid "Show preloader"
+msgstr "عرض التحميل المسبق"
+
+#: includes/options/popup-editor/general/preloader.php:16
+msgid "Preloader duration"
+msgstr "مدة التحميل المسبق"
+
+#: includes/options/popup-editor/general/preloader.php:32
+msgid "Preloader color 1"
+msgstr "لون التحميل المسبق 1"
+
+#: includes/options/popup-editor/general/preloader.php:43
+msgid "Preloader color 2"
+msgstr "لون التحميل المسبق 2"
+
+#: includes/options/popup-editor/general/sticky.php:5
+msgid "Sticky control"
+msgstr ""
+
+#: includes/options/popup-editor/general/sticky.php:14
+msgid "Initial mode"
+msgstr "الوضع الأولي"
+
+#: includes/options/popup-editor/general/sticky.php:15
+msgid "Display only sticky control on initial open"
+msgstr ""
+
+#: includes/options/popup-editor/general/sticky.php:25
+msgid "Vertically"
+msgstr "عموديا"
+
+#: includes/options/popup-editor/general/sticky.php:26
+msgid "Show the sticky control vertically."
+msgstr "اعرض التحكم المثبت عموديا"
+
+#: includes/options/popup-editor/general/sticky.php:36
+msgid "Sticky size"
+msgstr ""
+
+#: includes/options/popup-editor/general/sticky.php:63
+msgid "Padding left/right"
+msgstr "الهامش يسارا/يمينا"
+
+#: includes/options/popup-editor/general/sticky.php:75
+msgid "Sticky font"
+msgstr ""
+
+#: includes/options/popup-editor/general/sticky.php:114
+msgid "Sticky content"
+msgstr "م"
+
+#: includes/options/popup-editor/general/sticky.php:117
+msgid "Text"
+msgstr "نص"
+
+#: includes/options/popup-editor/general/sticky.php:119
+msgid "Open popup"
+msgstr "افتح نافذة منبثقة"
+
+#: includes/options/popup-editor/general/sticky.php:127
+msgid "Show icon"
+msgstr "اعرض ايقونة"
+
+#: includes/options/popup-editor/general/sticky.php:133
+msgid "Icon background color"
+msgstr "لون خلفية الايقونة"
+
+#: includes/options/popup-editor/general/sticky.php:144
+msgid "Icon"
+msgstr "ايقونة."
+
+#: includes/options/popup-editor/general/sticky.php:159
+msgid "Sticky background"
+msgstr ""
+
+#: includes/options/popup-editor/general/wp-editor.php:6
+msgid "Use Custom Embed Content"
+msgstr "استخدام محتوى التضمين المخصص."
+
+#: includes/options/popup-editor/general/wp-editor.php:7
+msgid ""
+"Enable this option to add the content inside the Wordpress Editor or in HTML "
+"Code field. (This will replace the Visual Editor)."
+msgstr ""
+"فعل هذا الاختيار لاضافة محتوي في Wordpress Editor او في الحقل المخصص لكود "
+"HTML .(هذاسوف يستبدل الVisual Editor)"
+
+#: includes/options/popup-editor/general/wp-editor.php:19
+msgid "Custom Embed Content"
+msgstr "محتوى التضمين المخصص."
+
+#: includes/options/popup-editor/general/wp-editor.php:20
+msgid ""
+"Insert the html code of your form in the \"HTML Code\" field. Use the "
+"WordPress Editor to add another type of content."
+msgstr ""
+"ادخل كود الhtml بالنموذج الخاص بكفي حقل \"كود html\".استخدم ال WordPress "
+"Editor لاضافة محتوي من نوع اخر"
+
+#: includes/options/popup-editor/general/wp-editor.php:24
+msgid "HTML Code"
+msgstr "كود HTML "
+
+#: includes/options/popup-editor/general/wp-editor.php:31
+msgid ""
+"Add here the HTML code of your form provided by your CRM Software like "
+"Mailchimp"
+msgstr ""
+"اضف كود الHTML في النموذج لديك هنا مدعوما ببرنامج CRM لديك مثلMailchimp"
+
+#: includes/options/popup-editor/general/wp-editor.php:35
+msgid "WordPress Editor"
+msgstr "محرر ورد بريس"
+
+#: includes/options/popup-editor/general/wp-editor.php:44
+msgid "Auto height"
+msgstr "الارتفاع تلقائي"
+
+#: includes/options/popup-editor/general/wp-editor.php:45
+msgid "The height of the popup will automatically adjust to the content"
+msgstr "حجم النافذة المنبثقة سوف يتم ضبطه تلقائيا علي حسب المحتوي"
+
+#: includes/options/popup-editor/general/wp-editor.php:110
+msgid "Close button"
+msgstr "زر الاغلاق"
+
+#: includes/options/popup-editor/general/wp-editor.php:117
+msgid "Show close button?"
+msgstr "عرض رز الاغلاق؟"
+
+#: includes/options/popup-editor/general/wp-editor.php:165
+msgid "Color on hover"
+msgstr "اللون حين تحوم بالمؤشر"
+
+#: includes/options/popup-editor/inline/inline.php:4
+msgid "Should close popup on Inline Mode"
+msgstr "يجب غلق النافذة المنبثقة في وضع الInline ."
+
+#: includes/options/popup-editor/inline/inline.php:5
+msgid ""
+"If is disabled, any element or action to close the popup will be deleted or "
+"disabled."
+msgstr "إذا كان معطلاً، سيتم حذف او تعطيل أي عنصر أو إجراءات لإغلاق المنبثقة."
+
+#: includes/options/popup-editor/notification-bar/notification-bar.php:4
+msgid "Remains fixed"
+msgstr "تظل ثابتة"
+
+#: includes/options/popup-editor/notification-bar/notification-bar.php:7
+msgid "The notification bar remains fixed on top/bottom."
+msgstr "يبقي شريط الاشعارات ثابتا لأعلي/اسفل"
+
+#: includes/options/popup-editor/notification-bar/notification-bar.php:11
+msgid "Push page down"
+msgstr "ادفع الصفحة لأسفل"
+
+#: includes/options/popup-editor/notification-bar/notification-bar.php:14
+msgid "Activate to push the page down when open the top notification bar."
+msgstr "تفعيل دفع الصفحة لأسفل عند فتح شريط الاشعارات العلوي."
+
+#: includes/options/popup-editor/notification-bar/notification-bar.php:18
+#, fuzzy
+msgid "Fixed Header. Enter ID or Class"
+msgstr "رأس ثابت .ادخل معرف أو فئة."
+
+#: includes/options/popup-editor/notification-bar/notification-bar.php:19
+msgid "E.g: #header or .custom-header"
+msgstr " مثال:#header أو Custom-header"
+
+#: includes/options/popup-editor/notification-bar/notification-bar.php:27
+msgid "Container of your page. Enter ID or Class."
+msgstr "حاوية الصفحة الخاصة بك. أدخل معرف أو فئة."
+
+#: includes/options/popup-editor/notification-bar/notification-bar.php:29
+msgid "If you leave it blank, the \"body\" tag is used as container."
+msgstr "إذا تركته فارغًا ، فسيتم استخدام علامة \"body\" كحاوية."
+
+#: includes/options/popup-editor/popup-editor.php:8
+msgid "When to display"
+msgstr "متى يتم العرض"
+
+#: includes/options/popup-editor/popup-editor.php:9
+msgid "Where to display"
+msgstr "مكان العرض"
+
+#: includes/options/popup-editor/popup-editor.php:14
+#: includes/options/popup-editor/templates/templates.php:24
+msgid "Popup templates"
+msgstr "قوالب لنوافذ منبثقة"
+
+#: includes/options/popup-editor/target/display-conditions.php:5
+msgid "Display popup for these users"
+msgstr "عرض النافذة المنبثقة لهؤلاء المستخدمين."
+
+#: includes/options/popup-editor/target/display-conditions.php:9
+msgid "Logged-In Users"
+msgstr "المستخدمين المسجلين دخولا"
+
+#: includes/options/popup-editor/target/display-conditions.php:10
+msgid "Not Logged-In Users"
+msgstr "المستخدمين غير المسجلين دخولا"
+
+#: includes/options/popup-editor/target/display-conditions.php:15
+msgid "Display popup on these devices"
+msgstr "عرض النافذة المنبثقة علي هذه الأجهزة"
+
+#: includes/options/popup-editor/target/display-target.php:5
+msgid "Display on All Site"
+msgstr "عرض علي الموقع كاملا"
+
+#: includes/options/popup-editor/target/display-target.php:11
+msgid "Display on Homepage"
+msgstr "عرض علي الصفحة الرئيسيه"
+
+#: includes/options/popup-editor/target/display-target.php:17
+msgid "Display on Archives"
+msgstr "عرض علي الارشيف"
+
+#: includes/options/popup-editor/target/display-target.php:33
+#: includes/options/popup-editor/target/display-target.php:88
+#: includes/options/popup-editor/target/display-target.php:139
+#, php-format
+msgid "Display on %s"
+msgstr "عرض علي%s"
+
+#: includes/options/popup-editor/target/display-target.php:44
+#: includes/options/popup-editor/target/display-target.php:150
+msgid "Include IDs"
+msgstr ""
+
+#: includes/options/popup-editor/target/display-target.php:46
+#: includes/options/popup-editor/target/display-target.php:152
+msgid "Enter the IDs where you want to display the popup. e.g: 7, 18"
+msgstr "ادخل المعرف الذي تريد عرض النافذة المنبثقة عليه. مثال:7,18"
+
+#: includes/options/popup-editor/target/display-target.php:57
+#: includes/options/popup-editor/target/display-target.php:163
+msgid "Exclude IDs"
+msgstr ""
+
+#: includes/options/popup-editor/target/display-target.php:59
+#: includes/options/popup-editor/target/display-target.php:165
+msgid "Enter the IDs where you do not want to display the popup. e.g: 5, 9, 23"
+msgstr "ادخل المعرف الذي لا تريد عرض النافذة المنبثقة عليه. مثال:5, 9, 23"
+
+#: includes/options/popup-editor/target/display-target.php:113
+msgid "Display on Specific URLs"
+msgstr "عرض في روابط معينة"
+
+#: includes/options/popup-editor/target/display-target.php:123
+msgid "Display Popup on Custom Post Types"
+msgstr "عرض النافذة المنبثقة في أنواع منشورات مخصصة"
+
+#: includes/options/popup-editor/target/display-target.php:131
+msgid "Not custom post types found"
+msgstr "لا يوجد منشورات مخصصة"
+
+#: includes/options/popup-editor/target/target.php:6
+msgid "Pages"
+msgstr "صفحات"
+
+#: includes/options/popup-editor/target/target.php:7
+msgid "Conditions"
+msgstr "شروط"
+
+#: includes/options/popup-editor/templates/templates.php:5
+msgid "How do you want to import your popup?"
+msgstr "كيف تود استيراد نافذتك المنبثقة؟"
+
+#: includes/options/popup-editor/templates/templates.php:12
+msgid "From popup template"
+msgstr "من قالب النافذة المنبثقة"
+
+#: includes/options/popup-editor/templates/templates.php:25
+msgid "Choose a popup template, and then click on the import button."
+msgstr "اختر قالب النافذة المنبثقة, واضغط علي زر الاستيراد"
+
+#: includes/options/popup-editor/triggers/close-triggers.php:11
+msgid "Close the popup by clicking on overlay"
+msgstr "اغلق النافذة المنبثقة عن طريق الضغط علي Overlay"
+
+#: includes/options/popup-editor/triggers/close-triggers.php:34
+msgid "Close the popup by pressing the ESC Key"
+msgstr "اغلق النافذة المنبثقة عن طريق الضغط علي مفتاح الرجوع"
+
+#: includes/options/popup-editor/triggers/close-triggers.php:57
+msgid "Close the popup automatically after X seconds"
+msgstr "اغلق النافذة المنبثقة تلقائيا بعد X ثانية"
+
+#: includes/options/popup-editor/triggers/close-triggers.php:72
+#: includes/options/popup-editor/triggers/open-triggers.php:96
+msgid "Time delay"
+msgstr "وقت التأخير"
+
+#: includes/options/popup-editor/triggers/close-triggers.php:94
+msgid "Close the popup after scrolling down X amount"
+msgstr "أغلق النافذة المنبثقة بعد تمرير الصفحة بمقدار X"
+
+#: includes/options/popup-editor/triggers/close-triggers.php:109
+#: includes/options/popup-editor/triggers/open-triggers.php:320
+msgid "Scroll amount"
+msgstr "مقدار تمرير الصفحة"
+
+#: includes/options/popup-editor/triggers/open-triggers.php:13
+msgid "Display the popup by clicking on certain element"
+msgstr "عرض النافذة المنبثقة عند الضغط علي عنصر معين"
+
+#: includes/options/popup-editor/triggers/open-triggers.php:18
+msgid "Event"
+msgstr "حدث"
+
+#: includes/options/popup-editor/triggers/open-triggers.php:30
+msgid "Use this class to execute your popup:"
+msgstr "استخدم هذه الفئة لتنفيذ نافذتك المنبثقة:"
+
+#: includes/options/popup-editor/triggers/open-triggers.php:35
+msgid "Usage examples:"
+msgstr "الأمثلة المستخدمة:"
+
+#: includes/options/popup-editor/triggers/open-triggers.php:54
+msgid "Enter your custom class"
+msgstr "ادخل الفئة المخصصة لديك"
+
+#: includes/options/popup-editor/triggers/open-triggers.php:64
+msgid "Prevent Default Event"
+msgstr "منع الحدث الافتراضي"
+
+#: includes/options/popup-editor/triggers/open-triggers.php:67
+msgid "Enable to avoid the default event when clicking"
+msgstr "قم بالتفعيل لتجنب الحدث الافتراضي عند النقر"
+
+#: includes/options/popup-editor/triggers/open-triggers.php:81
+msgid "Display the popup automatically after X seconds"
+msgstr "اعرض النافذة المنبثقة تلقائيا بعد X ثانية"
+
+#: includes/options/popup-editor/triggers/open-triggers.php:111
+#: includes/options/popup-editor/triggers/open-triggers.php:177
+#: includes/options/popup-editor/triggers/open-triggers.php:256
+#: includes/options/popup-editor/triggers/open-triggers.php:357
+msgid "Set cookie"
+msgstr "انشاء ملف تعريف الارتباط"
+
+#: includes/options/popup-editor/triggers/open-triggers.php:112
+#: includes/options/popup-editor/triggers/open-triggers.php:178
+#: includes/options/popup-editor/triggers/open-triggers.php:257
+#: includes/options/popup-editor/triggers/open-triggers.php:358
+msgid "Enable this option to display the popup only once."
+msgstr "قم بتفعيل هذا الاختيار لعرض النافذة المنبثقة مرة واحدة."
+
+#: includes/options/popup-editor/triggers/open-triggers.php:161
+msgid "Display the popup when the user tries to leave your website"
+msgstr "اعرض النافذة المنبثقة إذا حاول المستخدم مغادرة موقعك"
+
+#: includes/options/popup-editor/triggers/open-triggers.php:226
+msgid "Display the popup after X seconds of user inactivity"
+msgstr "اعرض النافذة المنبثقة إا لم يتفاعل المستخدم لمدة X ثانية"
+
+#: includes/options/popup-editor/triggers/open-triggers.php:241
+msgid "Inactivity time"
+msgstr "وقت عدم التفاعل"
+
+#: includes/options/popup-editor/triggers/open-triggers.php:305
+msgid ""
+"Display the popup after scrolling down X amount, after post content or after "
+"certain element"
+msgstr ""
+"اعرض النافذة المنبثقة بعد تمرير الصفحة بالمقدار X , بعد محتوي منشور او بعد "
+"عنصر معين ."
+
+#: includes/options/popup-editor/triggers/open-triggers.php:335
+msgid "After post content"
+msgstr "بعد محتوي منشور"
+
+#: includes/options/popup-editor/triggers/open-triggers.php:345
+msgid "Scroll to certain element (ID/Class)"
+msgstr "مرر الصفحة الي عنصر معين(معرف /فئة)"
+
+#: includes/options/popup-editor/triggers/open-triggers.php:346
+msgid "Enter the ID name or Class name like #footer or .widget-title"
+msgstr ""
+
+#: includes/options/popup-editor/triggers/open-triggers.php:407
+msgid "Embed the popup before or after post/page content"
+msgstr "تضمين النافذة المنبثقة قبل أو بعد محتوى المنشور / الصفحة"
+
+#: includes/options/popup-editor/triggers/open-triggers.php:411
+msgid "Embed automatically in"
+msgstr "تضمين تلقائي في"
+
+#: includes/options/popup-editor/triggers/open-triggers.php:415
+msgid "Before Post"
+msgstr "قبل المنشور"
+
+#: includes/options/popup-editor/triggers/open-triggers.php:416
+msgid "After Post"
+msgstr "بعد المنشور"
+
+#: includes/options/popup-editor/triggers/triggers.php:6
+msgid "When to show Popup"
+msgstr "متي يتم عرض النافذة المنبثقة "
+
+#: includes/options/popup-editor/triggers/triggers.php:7
+msgid "When to close Popup"
+msgstr "متي يتم اغلاق النافذة المنبثقة"
+
+#: includes/service-integration/class-mailster-integration.php:24
+#, fuzzy
+msgid "Please install and activate the %sMailster%s plugin."
+msgstr "برجاء تثبيت وتفعيل %s "
+
+#. Plugin Name of the plugin/theme
+msgid "Master Popups"
+msgstr "Master Popups"
+
+#. Plugin URI of the plugin/theme
+msgid "http://masterpopups.com"
+msgstr "http://masterpopups.com"
+
+#. Description of the plugin/theme
+msgid ""
+"Multi-Purpose Popup Plugin for WordPress with Powerful and Easy Email "
+"Marketing Integration"
+msgstr ""
+"النافذة المنبثقة متعددة الأغراض تضاف الي وورد بريس وتتميز بالدمج بين قوة "
+"وسهولة التسوق عبر البريد الالكتروني."
+
+#. Author of the plugin/theme
+msgid "MaxLopez"
+msgstr "MaxLopez"
+
+#. Author URI of the plugin/theme
+msgid "https://codecanyon.net/user/maxlopez"
+msgstr "https://codecanyon.net/user/maxlopez"

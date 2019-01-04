@@ -1,0 +1,10 @@
+{
+    "require": {
+        "mailerlite/mailerlite-api-v2-php-sdk": "^0.2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MasterPopups\\MailerLiteApi\\": "vendor/mailerlite/mailerlite-api-v2-php-sdk/src"
+        }
+    }
+}
