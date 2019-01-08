@@ -16,7 +16,7 @@ if ( ! class_exists( 'MasterPopups', false ) ) {
 
 function MasterPopups(){
 	return MasterPopups::get_instance(array(
-		'version'            => '2.4.7',
+		'version'            => '2.4.8',
 		'name'               => 'Master Popups',
 		'short_name'         => 'MasterPopups',
 		'slug'               => 'master-popups',
