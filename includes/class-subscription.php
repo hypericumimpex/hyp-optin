@@ -145,12 +145,6 @@ class Subscription extends FormSubmission {
             $data['last_name']['name'] = $this->post_data['mpp_field_last_name'];
         }
 
-        //Debug
-//        $this->result['debug'] = array(
-//            'post' => $this->post_data,//$_POST
-//            'custom_fields' => $data['custom_fields'],
-//        );
-
         $this->result['error'] = false;
         if( $service->add_subscriber( $this->email, $data ) ){
             //Datos adicionales

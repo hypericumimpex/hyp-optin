@@ -3,7 +3,7 @@
  * Plugin Name: HYP Optin
  * Plugin URI: https://github.com/hypericumimpex/
  * Description: Multi-Purpose Popup Plugin for WordPress with Powerful and Easy Email Marketing Integration
- * Version: 2.4.7
+ * Version: 2.4.8
  * Author: CodexHelp
  * Author URI: https://github.com/hypericumimpex/
  * Text Domain: masterpopups

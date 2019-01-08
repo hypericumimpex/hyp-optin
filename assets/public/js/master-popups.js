@@ -1554,7 +1554,7 @@
       var $form_elements = $form.find('.mpp-form-element');
       var $content = $processing_form.find('.mpp-processing-form-content');
 
-      var data = $form_elements.find('input[name],select[name],textarea[name]').serializeObject();
+      var data = $form_elements.find('input[name],select[name],textarea[name]').serializeMyObject();
       data.action = 'mpp_' + _.$popup.data('form-type');
       data.popup_id = _.options.id;
       data.current_device = $form_elements.eq(0).data('device');
@@ -2318,7 +2318,7 @@
 
 
 /*!
- * jQuery serializeObject - v0.2 - 1/20/2010
+ * jQuery serializeMyObject - v0.2 - 1/20/2010
  * http://benalman.com/projects/jquery-misc-plugins/
  *
  * Copyright (c) 2010 "Cowboy" Ben Alman
@@ -2326,13 +2326,13 @@
  * http://benalman.com/about/license/
  */
 
-// Whereas .serializeArray() serializes a form into an array, .serializeObject()
+// Whereas .serializeArray() serializes a form into an array, .serializeMyObject()
 // serializes a form into an (arguably more useful) object.
 
 (function ($, undefined) {
   '$:nomunge'; // Used by YUI compressor.
 
-  $.fn.serializeObject = function () {
+  $.fn.serializeMyObject = function () {
     var obj = {};
 
     $.each(this.serializeArray(), function (i, o) {

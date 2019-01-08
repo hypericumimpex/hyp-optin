@@ -50,6 +50,7 @@ abstract class FormSubmission {
         if( $this->post_data['current_device'] == 'mobile' ){
             $all_elements = $this->popup->mobile_elements;
         }
+
         foreach( $this->post_data['popup_elements'] as $index ){
             $this->elements[] = $all_elements[$index];
         }
@@ -83,6 +84,14 @@ abstract class FormSubmission {
                 }
             }
         }
+
+        //Debug
+        $this->result['debug'] = array(
+            'post' => $this->post_data,//$_POST
+            'custom_fields' => $this->custom_fields,
+            'fields' => $this->fields,
+        );
+
         return true;
     }
 

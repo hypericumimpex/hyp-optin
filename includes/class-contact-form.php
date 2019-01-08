@@ -40,13 +40,6 @@ class ContactForm extends FormSubmission {
         $this->result['error'] = false;
         $this->send();
 
-        //Debug
-//        $this->result['debug'] = array(
-//            'post' => $this->post_data,//$_POST
-//            'fields' => $this->fields,
-//            'custom_fields' => $this->custom_fields,
-//        );
-
         return $this->result;
     }
 
